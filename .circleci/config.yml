@@ -28,5 +28,5 @@ workflows:
   azure-serverless-crud-workflow:
     jobs:
       - deploy
-        context: azure-serverless-crud
+          context: azure-serverless-crud
       
