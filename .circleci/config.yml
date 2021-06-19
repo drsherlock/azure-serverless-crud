@@ -22,7 +22,7 @@ jobs:
           command: sudo npm i -g azure-functions-core-tools@3 --unsafe-perm true
       - run:
           name: Deploy to Azure function App
-          command: func azure functionapp publish $FUNCTION_APP_NAME --build local
+          command: func azure functionapp publish $FUNCTION_APP_NAME --build local --javascript
 
 workflows:
   azure-serverless-crud-workflow:
