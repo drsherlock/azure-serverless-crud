@@ -27,6 +27,13 @@ let resetList = [
         url:
             "https://cdn.pixabay.com/photo/2014/05/05/19/53/keyboard-338505_960_720.jpg",
     },
+    {
+        _id: uuidv4(),
+        name: "Gaming Console",
+        description: "Allows to play games on TV",
+        url:
+            "https://cdn.pixabay.com/photo/2017/05/19/14/09/ps4-2326616_960_720.jpg",
+    },
 ];
 
 module.exports = async function (context, req) {
